@@ -9,7 +9,7 @@ import numpy as np
 from tqdm import tqdm
 import random
 import json
-
+import tensorflow as tf 
 def get_loader(transform,
                mode='train',
                batch_size=1,
